@@ -19,10 +19,10 @@ Skip any step where a compatible tool already exists
 1. Update tools and generate project files. This should be done everytime you pull new changes
 
 ```
-> "venv/Scripts/activate"
+> venv/Scripts/activate.bat
 > pip install -r requirements.txt
 > progen generate -t uvision
-> "venv/Scripts/deactivate"
+> venv/Scripts/deactivate.bat
 ```
 
 
